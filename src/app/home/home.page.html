@@ -1,0 +1,29 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <section text-align = "center">
+      <ion-label>Digite um valor</ion-label>
+      <ion-input clearInput="true" type="number" [(ngModel)]="n1"></ion-input>
+    </section>
+    <section>
+      <ion-button (click) = "somar()">+</ion-button>
+      <ion-button (click) = "subtrair()">-</ion-button>
+      <ion-button (click) = "multiplicar()">*</ion-button>
+      <ion-button (click) = "dividir()">/</ion-button>
+      <ion-button (click) = "igual()">=</ion-button>
+    </section>
+  </div>
+</ion-content>

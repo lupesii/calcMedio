@@ -1,0 +1,7 @@
+{
+  "name": "calcMedio",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
